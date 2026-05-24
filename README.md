@@ -19,5 +19,5 @@
   核心工作流: 输入处理 → 加载代码库上下文（提取项目规范、依赖、工具库清单）→ 10个类别的AI特征检测 → 交叉引用去重 →
   生成结构化审查报告
 
-  触发方式: 下次启动Claude Code时会自动发现。支持的触发短语包括: 「review this PR for AI artifacts」「check if this was
+支持的触发短语包括: 「review this PR for AI artifacts」「check if this was
   AI-generated」「find AI code issues」「audit this diff for hallucinated APIs」「AI code review」等。
